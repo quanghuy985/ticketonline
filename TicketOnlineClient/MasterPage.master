@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Travel Agency</title>
+	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+<script type="text/javascript" id="sothink_dhtmlmenu"> <!--
+ st_siteroot="http://localhost:5129/TransportServiceCompany";
+ st_jspath="Js/stmenu.js";
+ if(!window.location.href.indexOf("file:") && st_jspath.charAt(0)=="/")
+  document.write('<script type="text/javascript" src="'+st_siteroot+st_jspath+'"><\/script>');
+ else 
+  document.write('<script type="text/javascript" src="'+st_jspath+'"><\/script>');
+//--> </script>
+</head>
+
+<body>
+
+    <form id="form1" runat="server">
+
+<div id="wrapper">
+  <div id="left">
+    <h1>Ticket Online </h1>
+    <div id="copyright">
+      <p>Copyright by Group I</p>
+      <p>C0807i - Aptech</p>
+    </div>
+  </div>
+  <div id="right">
+    <div id="nav">
+      <ul>
+        <li class="selected"><a href="http://www.freewebsitetemplates.com">Trang Chủ</a></li>
+        <li><a href="http://www.freewebsitetemplates.com">Hành Trình</a></li>
+        <li><a href="http://www.freewebsitetemplates.com">Giới thiệu</a></li>
+        <li><a href="http://www.freewebsitetemplates.com">Đăng Nhập</a></li>
+        <li><a href="http://www.freewebsitetemplates.com">Phản ánh</a></li>
+        <li><a href="http://www.freewebsitetemplates.com">Đối tác</a></li>
+      </ul>                      
+    </div>
+    <div id="body">
+        <div style="position: absolute; top: 108px; left: 18px; width: 478px;">
+        <asp:ContentPlaceHolder ID="cntContent" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+    </form>
+
+
+</body>
+</html>
